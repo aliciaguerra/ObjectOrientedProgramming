@@ -14,4 +14,15 @@ Object-oriented programming that uses classes is sometimes class-based programmi
 - Encapsulation (or multi-methods, in which case the state is kept seperate)
 - Subtype polymorphism
 - Object inheritance (or delegation)
-- Open recursion: a special variable called this or self, that allows a method body to invoke another method body of the same object. This variable is late bound
+- Open recursion: a special variable called this or self, that allows a method body to invoke another method body of the same object. This variable is late bound, it allows a method defined in one class to invoke another method that is defined later, in some suybclass thereof.
+Additional concepts in OOP include:
+- Classes of object (object constructors)
+- Instances of classes (objects, which have been sonstructed via a class)
+- Methods which act on the attached objects
+- Message passing
+- Abstraction
+<b>Decoupling</b><br>
+Decoupling refers to careful controls that seperate code modules from particular use cases, which increases code reusability. A common use of decoupling is to mainly decouple the encapsulation (see bridge pattern and adapter pattern) - for example, using a method interface that an encapsulated object must satisfy, as opposed to using the object's class.
+#Additional Features
+<b>Encapsulation Enforces Modularlity</b><br>
+Encapsulation refers to the creation of self-contained modules that bind processing functions to the data.
